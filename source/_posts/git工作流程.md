@@ -53,7 +53,7 @@ typora-copy-images-to: ../images
    - 将本地提交推送到远程仓库
 
      ```bash
-     git push <remote url>ush <remote url>
+     git push <remote url>
      ```
 
 

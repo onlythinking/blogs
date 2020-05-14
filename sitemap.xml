@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.onlythinking.com/2019/10/12/%E6%97%A0%E7%A0%81%E8%83%9C%E6%9C%89%E7%A0%81-%E7%BC%96%E7%A8%8B%E6%9C%80%E9%AB%98%E5%A2%83%E7%95%8C/</loc>
+    <loc>http://blog.onlythinking.com/2020/05/14/%E4%B8%80%E5%A5%97%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E6%A8%A1%E7%89%88/</loc>
     
-    <lastmod>2019-10-12T10:22:25.915Z</lastmod>
+    <lastmod>2020-05-14T09:31:41.205Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.onlythinking.com/2019/10/15/raft%E7%AE%97%E6%B3%95/</loc>
+    
+    <lastmod>2020-05-14T08:08:17.406Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.onlythinking.com/2019/10/10/spring-boot-2-x-kafka-%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B/</loc>
     
-    <lastmod>2019-10-12T06:37:44.740Z</lastmod>
+    <lastmod>2020-05-14T08:07:11.056Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.onlythinking.com/2019/10/12/%E6%97%A0%E7%A0%81%E8%83%9C%E6%9C%89%E7%A0%81-%E7%BC%96%E7%A8%8B%E6%9C%80%E9%AB%98%E5%A2%83%E7%95%8C/</loc>
+    
+    <lastmod>2019-10-12T10:29:50.781Z</lastmod>
     
   </url>
   

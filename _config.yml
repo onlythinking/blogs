@@ -94,14 +94,7 @@ deploy:
   - type: git 
     repo: git@github.com:onlythinking/blogs.git
     branch: gh-pages
-  - type: leancloud_counter_security_sync
 
-leancloud_counter_security:
-  enable_sync: true
-  app_id: inB2D7xi6TKzBggUS7PxOFdp-gzGzoHsz
-  app_key: DaMUuYQCQ5189oOVXupxYlcc
-  username: sky233
-  password: tyty357468
 
 sitemap:
   path: sitemap.xml

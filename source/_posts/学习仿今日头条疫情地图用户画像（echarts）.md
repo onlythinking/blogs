@@ -1,5 +1,5 @@
 ---
-title: 学习仿今日头条疫情地图用户画像（echarts）
+title: Echarts实现中国疫情地图和今日头条用户画像
 date: 2020-05-24 16:42:13
 tags: 
 	- echarts

@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.onlythinking.com
+url: https://www.onlythinking.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,7 +94,13 @@ deploy:
   - type: git 
     repo: git@github.com:onlythinking/blogs.git
     branch: gh-pages
+  - type: baidu_url_submitter
 
+baidu_url_submit:
+  count: 100 
+  host: https://www.onlythinking.com
+  token: 8DCl0gSeG94cW60u 
+  path: baidu_urls.txt # 文本文档的地址
 
 sitemap:
   path: sitemap.xml

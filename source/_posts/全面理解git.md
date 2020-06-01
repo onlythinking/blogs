@@ -1,5 +1,5 @@
 ---
-title: 全面理解Git
+title: 一文读懂Git
 date: 2020-05-29 14:24:00
 tags:
 	- Git

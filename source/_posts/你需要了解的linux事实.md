@@ -16,7 +16,7 @@ typora-copy-images-to: ../images
 
 
 
-<img src="/images/Linus_Torvalds.jpg" style="zoom:50%;" />
+![Linus Torvalds](/images/Linus_Torvalds-4108483.jpg)
 
 如今，Linux覆盖面很广，它是服务器的主要操作系统，也是Android的基础，而Android是手机的主要操作系统。而且它是100％免费和开源的。
 
@@ -38,7 +38,7 @@ Linux基金会每年向Linus支付1000万美元，以支持他在Linux上的工�
 
 尽管如此，Linus还是要花很多钱，以及所有依赖Linux的系统，Linus经常宅在家里工作。下图是他在跑步机上的照片：
 
-![](/images/pb.png)
+![Linus 在家里的跑步机上工作](/images/pb.png)
 
 
 
@@ -62,7 +62,7 @@ Linux基金会每年向Linus支付1000万美元，以支持他在Linux上的工�
 
 下图是许多公司的开发人员为Linux做出了贡献。他们是按贡献排序的：
 
-![](/images/gx.png)
+![贡献](/images/gx.png)
 
 #### Linux的影响力
 
@@ -77,7 +77,7 @@ Dronecode是Linux for Drones。大约有1,000家公司开发在此操作系统�
 
 Linux有许多发行版或“发行版”。大多数发行版基于其他发行版。最受欢迎的发行版是Ubuntu，它基于Debian。
 
-![](/images/jz.png)
+![软件家族](/images/jz.png)
 
 
 

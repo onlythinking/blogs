@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Onlythinking博客
+title: 编程码农
 subtitle: 人生苦短，多做点自己喜欢的事情，比如Coding
-description: 人生苦短，多做点自己喜欢的事情，比如Coding
-keywords: java,onlythinking,JavaScript,思维,感想,web,git,spring,springboot,vuejs
+description: 编程学习探讨，技术不限Java，golang，JavaScript，mysql。编程悟道。多年程序老鸟，欢迎来骚。
+keywords: 编程,编程码农,java,JavaScript,web,git,spring,springboot,vuejs
 author: onlythinking
 avatar: https://avatars2.githubusercontent.com/u/8347219?s=400&u=53ce839a1103bfd6e24ffe9d25a1cf6038b5df3c&v=4
 language: zh-Hans

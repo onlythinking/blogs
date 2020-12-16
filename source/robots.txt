@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://blog.onlythinking.com/sitemap.xml
-Sitemap: https://blog.onlythinking.com/baidusitemap.xml
+Sitemap: https://www.onlythinking.com/sitemap.xml
+Sitemap: https://www.onlythinking.com/baidusitemap.xml

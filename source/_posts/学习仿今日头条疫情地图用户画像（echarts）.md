@@ -3,15 +3,16 @@ title: Echarts实现中国疫情地图和今日头条用户画像
 date: 2020-05-24 16:42:13
 tags: 
 	- echarts
+top: 1
 categories: 前端
 copyright: true
 typora-root-url: ../
 typora-copy-images-to: ../images
 ---
 
-## Echarts Chartjs
+新型冠状病毒肺炎疫情目前最新情况，12月16日0—24时，31个省（自治区、直辖市）和新疆生产建设兵团报告新增确诊病例7例，均为境外输入病例（上海6例，广东1例）；无新增死亡病例；新增疑似病例1例，为本土病例（在黑龙江）。
 
-最近由于公司图表展现需求较多，所以学习整理下相关资料。
+## Echarts Chartjs
 
 前端图表框架也比较多，这里介绍两款。
 

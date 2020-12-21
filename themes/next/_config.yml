@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Java, Spring, javascript"
+keywords: "疫情,地图,python,java,js,web"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -63,7 +63,7 @@ footer:
     version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+    custom_text: 滇ICP备18010043号
 
 # ---------------------------------------------------------------
 # SEO Settings

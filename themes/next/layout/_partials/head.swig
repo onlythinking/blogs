@@ -6,7 +6,7 @@
 <meta name="google-site-verification" content="BEx2GwwDPbROBgXDVM61u9JfX0Kff2xHkfaKIIYTq8w" />
 <meta name="360-site-verification" content="852d54881683fbba3ea312529ba21e8f" />
 <meta name="sogou_site_verification" content="TIWHvq9nl8"/>
-<meta name="baidu-site-verification" content="iXiwbqPWlp" />
+<meta name="baidu-site-verification" content="code-xtgMz2MmJW" />
 
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">

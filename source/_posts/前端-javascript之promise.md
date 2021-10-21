@@ -16,7 +16,7 @@ typora-copy-images-to: ../images
 
 Promise 是异步编程的一种解决方案。ES6中已经提供了原生`Promise`对象。一个`Promise`对象会处于以下几种状态（fulfilled，rejected两种状态一旦确定后不会改变）：
 
-- 待定（pending）: 初始状态，既没有被兑现，也没有被拒绝。
+- 待定（pending）: 初始状/态，既没有被兑现，也没有被拒绝。
 - 已兑现（fulfilled）: 意味着操作成功完成。
 - 已拒绝（rejected）: 意味着操作失败。
 

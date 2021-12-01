@@ -61,8 +61,8 @@ footer:
     enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: false
-  # -------------------------------------------------------------
-  # Any custom text can be defined here.
+    # -------------------------------------------------------------
+    # Any custom text can be defined here.
     custom_text: 滇ICP备18010043号
 
 # ---------------------------------------------------------------
@@ -80,7 +80,6 @@ seo: false
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
 index_with_subtitle: false
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -104,7 +103,6 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -152,7 +150,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 #links:
-  #Title: http://example.com/
+#Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -201,7 +199,6 @@ sidebar:
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -256,7 +253,6 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -281,7 +277,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -338,14 +333,13 @@ font:
     family:
     size:
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -376,12 +370,11 @@ changyan:
   appid:
   appkey:
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true
+  enable: false
   appid: inB2D7xi6TKzBggUS7PxOFdp-gzGzoHsz
   appkey: DaMUuYQCQ5189oOVXupxYlcc
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
@@ -403,16 +396,16 @@ valine:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
-  github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: onlythinking # MUST HAVE, Your Github ID
+  github_repo: https://github.com/onlythinking/blogs.git # MUST HAVE, The repo you use to store Gitment comments
+  client_id: b58be3d68d6c5051d4ce # MUST HAVE, Github client id for the Gitment
+  client_secret: 05619b05c6a99cf0b8affa4a71879e6672eea1b9 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -428,7 +421,7 @@ gitment:
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
 #jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
+##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 #jiathis: true
 # Share
@@ -498,36 +491,36 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -536,7 +529,7 @@ rating:
 #  enable: true
 #  app_id: inB2D7xi6TKzBggUS7PxOFdp-gzGzoHsz
 #  app_key: DaMUuYQCQ5189oOVXupxYlcc
-  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+# Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
 #  security: true
 #  betterPerformance: false
 
@@ -568,13 +561,11 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer:
 
-
 # Tencent analytics ID
 # tencent_analytics:
 
 # Tencent MTA ID
 # tencent_mta:
-
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
@@ -609,13 +600,12 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -650,7 +640,6 @@ tabs:
     tabs: false
     labels: true
   border_radius: 0
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -807,7 +796,6 @@ vendors:
   # needMoreShare2
   # https://github.com/revir/need-more-share2
   needMoreShare2:
-
 
 # Assets
 css: css

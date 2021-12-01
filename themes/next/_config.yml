@@ -403,7 +403,7 @@ gitment:
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: onlythinking # MUST HAVE, Your Github ID
-  github_repo: https://github.com/onlythinking/blogs.git # MUST HAVE, The repo you use to store Gitment comments
+  github_repo: blogs # MUST HAVE, The repo you use to store Gitment comments
   client_id: b58be3d68d6c5051d4ce # MUST HAVE, Github client id for the Gitment
   client_secret: 05619b05c6a99cf0b8affa4a71879e6672eea1b9 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect

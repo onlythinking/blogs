@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "疫情,地图,python,java,js,web"
+keywords: "python,java,js,web"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -58,7 +58,7 @@ footer:
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: false
+    enable: true
     # Version info of NexT after scheme info (vX.X.X).
     version: false
     # -------------------------------------------------------------
@@ -128,7 +128,9 @@ social:
   GitHub: https://github.com/onlythinking || github
   #E-Mail: lixingping233@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/onlythinking233 || twitter
+  # Twitter: https://twitter.com/onlythinking233 || twitter
+  Wechat: /assets/img/onlythiking_qrcode_.jpg || weixin
+
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -141,7 +143,7 @@ social_icons:
   icons_only: false
   transition: false
   GitHub: github
-  # Wechat: weixin
+  Wechat: weixin
   Twitter: twitter
 
 # Blog rolls
@@ -239,7 +241,7 @@ post_wordcount:
 wechat_subscriber:
   enabled: true
   qcode: /images/onlythiking_qrcode_.jpg
-  description: 编程学习探讨，技术不限Java，golang，JavaScript，mysql。编程悟道。多年程序老鸟，欢迎来骚
+  description: 多年编程老菜鸟👨‍💻🦍，日常技术、经验分享和大家共同学习进步，欢迎留言交流
 
 # Reward
 #reward_comment: Donate comment here
@@ -600,7 +602,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto

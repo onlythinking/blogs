@@ -4,10 +4,10 @@
 
 # Site
 title: 编程码农
-subtitle: 人生苦短，多做点自己喜欢的事情，比如Coding
-description: 怎样学编程？技术不限Java，golang，js，mysql。多年程序老鸟，欢迎来骚。
-keywords: 疫情,地图,python,java,js,web
-author: onlythinking
+subtitle: 人生苦短，多做点自己喜欢的事情，比如 Coding
+description: 公众号《编程码农》欢迎留言交流
+keywords: python,java,js,web,go
+author: 编程码农
 avatar: https://avatars2.githubusercontent.com/u/8347219?s=400&u=53ce839a1103bfd6e24ffe9d25a1cf6038b5df3c&v=4
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -50,10 +50,10 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -83,23 +83,23 @@ nofollow:
 #    - exclude1.com
 
 # prism_plugin:
- # mode: 'preprocess'    # realtime/preprocess
- # theme: 'default'
- # line_number: true
+# mode: 'preprocess'    # realtime/preprocess
+# theme: 'default'
+# line_number: true
 #  custom_css: 'path/to/your/custom.css'     # optional
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  - type: git 
+  - type: git
     repo: git@github.com:onlythinking/blogs.git
     branch: gh-pages
   - type: baidu_url_submitter
 
 baidu_url_submit:
-  count: 100 
+  count: 100
   host: https://www.onlythinking.com
-  token: 8DCl0gSeG94cW60u 
+  token: 8DCl0gSeG94cW60u
   path: baidu_urls.txt # 文本文档的地址
 
 sitemap:
